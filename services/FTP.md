@@ -4,13 +4,14 @@
 | **Command** | `21/TCP` |
 | **Data channel (Default)** | `20/TCP` |
 
-Configuration file location
+### Configuration file location
 
 ```bash
 /etc/vsftpd.conf
 ```
 
-Not-allowed users file - Usernames mentioned in this file are not allowed to login to FTP.
+### Not-allowed users file
+Usernames mentioned in this file are not allowed to login to FTP.
 
 ```bash
 /etc/ftpsuers
