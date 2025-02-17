@@ -21,7 +21,7 @@ $ cat /etc/samba/smb.conf | grep -v "#\|\;"
 
 ```bash
 # Service version (-sV) and default script (-sC) scan
-$ sudo nmap -sV -sC -p 139,445 <TARGET>
+$ sudo nmap -sV -sC -p 139,445 <TARGET_IP>
 
 # Running all smb nmap Lua scripts using '--script' option
 $ sudo nmap -sV --script smb* <TARGET_IP>
