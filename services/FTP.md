@@ -29,7 +29,7 @@ $ sudo nmap -sV -p21 -sC -A <TARGET_IP_IP>
 $ sudo nmap -p21 -sV --script ftp* <TARGET_IP>
 ```
 
-### Interaction with FTP
+## Interaction with FTP
 
 ### ftp
 
